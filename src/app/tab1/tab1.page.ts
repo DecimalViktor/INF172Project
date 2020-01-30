@@ -6,7 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
-
+  selectGender;
+  dateOfBirth;
   constructor() {}
+  ngOninit(){}
+  getGender(){
+    console.log(this.selectGender)
+  }
+  getDOB(){
+    console.log(this.dateOfBirth)
+  }
 
 }
