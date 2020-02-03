@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class Tab1Page {
   selectGender;
   dateOfBirth;
+  FirstName;
   constructor() {}
   ngOninit(){}
   getGender(){
@@ -16,5 +17,4 @@ export class Tab1Page {
   getDOB(){
     console.log(this.dateOfBirth)
   }
-
-}
+  }
