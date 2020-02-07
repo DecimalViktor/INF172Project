@@ -6,9 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
-  selectGender;
-  dateOfBirth;
+  selectGender; // return male/ female
+  dateOfBirth; // reuturn time object of selection
   FirstName;
+  MiddleName;
+  LastName;
+
   constructor() {}
   ngOninit(){}
   getGender(){
@@ -16,5 +19,11 @@ export class Tab1Page {
   }
   getDOB(){
     console.log(this.dateOfBirth)
+  }
+  getLoginData(){
+    
+  }
+  nextButton(){
+
   }
   }

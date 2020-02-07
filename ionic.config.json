@@ -1,5 +1,7 @@
 {
   "name": "Hippocrates",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
