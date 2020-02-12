@@ -133,8 +133,66 @@
       </ion-grid>
 
 
+      <ion-item>
+        <ion-label>Known Allergies</ion-label>
+      </ion-item>
+    
+      <ion-grid> 
+        <ion-row>
+          <ion-col size-lg="3">
+            <ion-item>
+              <ion-label>Penicillin</ion-label>
+              <ion-checkbox slot="start" value="penicillinAllergen"></ion-checkbox>
+            </ion-item>
+          </ion-col>
+          <ion-col size-lg="3">
+            <ion-item>
+              <ion-label>Latex</ion-label>
+              <ion-checkbox slot="start" value="latexAllergen"></ion-checkbox>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <ion-item>
+        <ion-label>Family History</ion-label>
+      </ion-item>
+
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-item>
+              <ion-label>Family History of Heart Disease</ion-label>
+              <ion-checkbox slot="start" value="HeartDiseaseFH"></ion-checkbox>
+            </ion-item>
+          </ion-col>
+          <ion-col>
+            <ion-item>
+              <ion-label>Family History of Lung Disease</ion-label>
+              <ion-checkbox slot="start" value="LungDiseaseFH"></ion-checkbox>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <ion-item>
+        <ion-label>Smoking</ion-label>
+      </ion-item>
+       
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label>Are you a regular smoker?</ion-label>
+            <ion-checkbox slot="start" value="smoke"></ion-checkbox>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+
     </ion-title>
   </ion-toolbar>
+
 </ion-header>
+
+
 
 <ion-content></ion-content>
