@@ -5,7 +5,23 @@
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content>
-  
+  <ion-card>
+    <ion-label position="stacked">When did the pain start?    <ion-text color="danger">*</ion-text></ion-label>
+    <ion-input type="text" [(ngModel)]="startTime" test-right id="input"></ion-input>
+  </ion-card>
+  <ion-card>
+    <ion-label position="stacked">Does the pain radiate anywhere?  <ion-text color="danger">*</ion-text></ion-label>
+    <ion-input type="text" [(ngModel)]="painRadiate" test-right id="input"></ion-input>
+  </ion-card>
+  <ion-card>
+    <ion-label position="stacked">Have you taken any medication for this pain?Y/N
+        <ion-text color="danger">*</ion-text></ion-label>
+  </ion-card>
+  <ion-card>
+    <ion-label position="stacked">What were you doing when this pain began?
+      <ion-text color="danger">*</ion-text></ion-label>
+  </ion-card>
+
+
 </ion-content>
