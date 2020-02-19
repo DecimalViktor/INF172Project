@@ -12,15 +12,19 @@
       <ion-item>
         <!-- this is tab for Firstname -->
         <ion-label position="stacked">First Name <ion-text color="danger">*</ion-text></ion-label>
-        <ion-input type="text" [(ngModel)]="Firstname" test-right id="input"></ion-input>
+        <br>
+        <ion-input class ='fName' type="text" [(ngModel)]="Firstname" test-right id="input"></ion-input>
 
         <!-- this is tab for middlename -->
         <ion-label position="stacked">Middle Name(Option) </ion-label>
-        <ion-input type="text" [(ngModel)]="MiddleName" test-right id="input"></ion-input>
+        <br>
+        <ion-input class = "mName" type="text" [(ngModel)]="MiddleName" test-right id="input"></ion-input>
         <!-- this is tab for lastname -->
         <ion-label position="stacked">Last Name <ion-text color="danger">*</ion-text></ion-label>
-        <ion-input type="text" [(ngModel)]="LastName" test-right id="input"></ion-input>
+        <br>
+        <ion-input class="lName" type="text" [(ngModel)]="LastName" test-right id="input"></ion-input>
       </ion-item>
+      
     </ion-card>
 
       <!-- gender selection -->
