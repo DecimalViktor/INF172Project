@@ -8,15 +8,26 @@
 <ion-content>
   <ion-card>
     <ion-label position="stacked">When did the pain start?    <ion-text color="danger">*</ion-text></ion-label>
-    <ion-input type="text" [(ngModel)]="startTime" test-right id="input"></ion-input>
+    <ion-input class = 'pstart' type="text" [(ngModel)]="startTime" test-right id="input"></ion-input>
   </ion-card>
   <ion-card>
     <ion-label position="stacked">Does the pain radiate anywhere?  <ion-text color="danger">*</ion-text></ion-label>
-    <ion-input type="text" [(ngModel)]="painRadiate" test-right id="input"></ion-input>
+    <ion-input class = "pRadiat" type="text" [(ngModel)]="painRadiate" test-right id="input"></ion-input>
   </ion-card>
   <ion-card>
     <ion-label position="stacked">Have you taken any medication for this pain?Y/N
         <ion-text color="danger">*</ion-text></ion-label>
+        <ion-radio-group [(ngModel)]="selectMed" (ionChange)='getMed()'>
+        <ion-item>
+          <ion-label>yes</ion-label>
+          <ion-radio slot="start" value = "yes" checked></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>no</ion-label>
+          <ion-radio slot="start" value = "no" checked></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+        
   </ion-card>
   <ion-card>
     <ion-label position="stacked">What were you doing when this pain began?
