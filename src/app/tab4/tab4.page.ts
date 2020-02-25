@@ -5,11 +5,16 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './tab4.page.html',
   styleUrls: ['./tab4.page.scss'],
 })
+
 export class Tab4Page implements OnInit {
 
+  oneClick(){
+    console.log('clicked one')
+  }
   constructor() { }
 
   ngOnInit() {
   }
-
+  
+  
 }

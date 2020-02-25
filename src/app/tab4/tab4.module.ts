@@ -8,7 +8,11 @@ import { Tab4PageRoutingModule } from './tab4-routing.module';
 
 import { Tab4Page } from './tab4.page';
 
+var image = "../../assets/ChestPictures/body.svg"
+
+
 @NgModule({
+  
   imports: [
     CommonModule,
     FormsModule,

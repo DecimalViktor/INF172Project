@@ -1,14 +1,17 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Click Which Part Your Feeling Pain</ion-title>
+    <ion-title>Click Pain Point</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-card class = "test">
-    <ion-label class="chest">
-      <img src="../../assets/ChestPictures/body.svg" alt="chest picture">
-      </ion-label>
+  <ion-card>
+    
+      <!-- <img class="body" src="../../assets/ChestPictures/body.svg" alt="chest picture"> -->
+      
+        <img class="one" (click)="oneClick()" src="../../assets/ChestPictures/chest1_gray.svg" alt=""/>
+     
+      
   </ion-card>
 
 </ion-content>
