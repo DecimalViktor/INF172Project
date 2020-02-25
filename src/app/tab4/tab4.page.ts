@@ -7,11 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class Tab4Page implements OnInit {
-
+  oneGray = "chest1_gray.svg"
+  oneStatus = 0;
   oneClick(){
-    console.log('clicked one')
+    
+    if(this.oneGray.includes("gray")){
+      this.oneGray="chest1.svg"
+      this.oneStatus = 1
+    }
+    else{
+      this.oneGray="chest1_gray.svg"
+      this.oneStatus= 0 ;
+    }
+
   }
-  constructor() { }
+  constructor() {
+    
+   }
 
   ngOnInit() {
   }
