@@ -13,6 +13,14 @@ export class Tab4Page implements OnInit {
   twoStatus = 0;
   thrGray = "chest3_gray.svg"
   thrStatus = 0;
+  fouGray = "chest4_gray.svg"
+  fouStatus = 0;
+  fivGray = "chest5_gray.svg"
+  fivStatus = 0;
+  sixGray = "chest6_gray.svg"
+  sixStatus = 0;
+  sevGray = "chest7_gray.svg"
+  sevStatus = 0;
   oneClick(){
     
     if(this.oneGray.includes("gray")){
@@ -45,6 +53,49 @@ export class Tab4Page implements OnInit {
       this.thrStatus= 0 ;
     }
   }
+
+  fouClick(){
+    if(this.fouGray.includes("gray")){
+      this.fouGray="chest4.svg"
+      this.fouStatus = 1
+    }
+    else{
+      this.fouGray="chest4_gray.svg"
+      this.fouStatus= 0 ;
+    }
+  }
+
+  fivClick(){
+    if(this.fivGray.includes("gray")){
+      this.fivGray="chest5.svg"
+      this.fivStatus = 1
+    }
+    else{
+      this.fivGray="chest5_gray.svg"
+      this.fivStatus= 0 ;
+    }
+  }
+  sixClick(){
+    if(this.sixGray.includes("gray")){
+      this.sixGray="chest6.svg"
+      this.sixStatus = 1
+    }
+    else{
+      this.sixGray="chest6_gray.svg"
+      this.sixStatus= 0 ;
+    }
+  }
+  sevClick(){
+    if(this.sevGray.includes("gray")){
+      this.sevGray="chest7.svg"
+      this.sevStatus = 1
+    }
+    else{
+      this.sevGray="chest7_gray.svg"
+      this.sevStatus= 0 ;
+    }
+  }
+
   constructor() {
     
    }
