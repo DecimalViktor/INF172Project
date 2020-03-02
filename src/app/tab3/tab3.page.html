@@ -31,11 +31,129 @@
 
   <ion-card>
     <ion-label position="stacked">What were you doing when this pain began?
-      <ion-text color="danger">*</ion-text></ion-label>
+      <ion-text color="danger">*</ion-text>
+    </ion-label>
       <ion-input type="text" class="painBeganInput"></ion-input>
   </ion-card>
-  <ion-card>
 
+  <ion-card>
+    <ion-label>
+      What makes the pain bettere?
+      <ion-text color="danger">*</ion-text>
+    </ion-label>
+    <ion-label>
+      <ion-item class="Stretching">
+        <ion-label>Stretching</ion-label>
+        <ion-checkbox slot="start" value="Stretching"></ion-checkbox>
+      </ion-item>
+      <ion-item class="Resting">
+        <ion-label>Resting</ion-label>
+        <ion-checkbox slot="start" value="resting"></ion-checkbox>
+      </ion-item>
+      <ion-item class="Applying heat">
+        <ion-label>Applying Heat</ion-label>
+        <ion-checkbox slot="start" value="heat"></ion-checkbox>
+      </ion-item>
+      <ion-item class="medications">
+        <ion-label>Medications, massage, heat/cold, changing position, being active</ion-label>
+        <ion-checkbox slot="start" value="medications"></ion-checkbox>
+      </ion-item>
+      <ion-item class="other">
+        <ion-checkbox slot="start" value="other"></ion-checkbox>
+        <ion-input type="text" class="otherText" placeholder="other"></ion-input>
+      </ion-item>
+    </ion-label>
   </ion-card>
+
+  <ion-card>
+    <ion-label>
+      What makes the pain worse?
+      <ion-text color="danger">*</ion-text>
+    </ion-label>
+    <ion-label>
+      <ion-item class="caughing">
+        <ion-label>Caughing</ion-label>
+        <ion-checkbox slot="start" value="Stretching"></ion-checkbox>
+      </ion-item>
+      <ion-item class="swallow">
+        <ion-label>Swallowing</ion-label>
+        <ion-checkbox slot="start" value="swallow"></ion-checkbox>
+      </ion-item>
+      <ion-item class="lifting">
+        <ion-label>Lifting your arms</ion-label>
+        <ion-checkbox slot="start" value="lifting"></ion-checkbox>
+      </ion-item>
+      <ion-item class="running">
+        <ion-label>Running</ion-label>
+        <ion-checkbox slot="start" value="running"></ion-checkbox>
+      </ion-item>
+      <ion-item class="other">
+        
+        <ion-checkbox slot="start" value="other"></ion-checkbox>
+        <ion-input type="text" class="otherText" placeholder="other"></ion-input>
+      </ion-item>
+    </ion-label>
+  </ion-card>
+  <ion-card>
+    <ion-label>
+      What type of pain are you experiencing?
+      <ion-text color="danger">*</ion-text>
+    </ion-label>
+    <ion-label>
+      <ion-item class="sharp">
+        <ion-label>Sharp</ion-label>
+        <ion-checkbox slot="start" value="sharp"></ion-checkbox>
+      </ion-item>
+      <ion-item class="burning">
+        <ion-label>Burning</ion-label>
+        <ion-checkbox slot="start" value="burning"></ion-checkbox>
+      </ion-item>
+      <ion-item class="pressuring">
+        <ion-label>Pressuring</ion-label>
+        <ion-checkbox slot="start" value="pressuring"></ion-checkbox>
+      </ion-item>
+      <ion-item class="stabbing">
+        <ion-label>Stabbing</ion-label>
+        <ion-checkbox slot="start" value="running"></ion-checkbox>
+      </ion-item>
+      <ion-item class="crushing">
+        <ion-label>Crushing</ion-label>
+        <ion-checkbox slot="start" value="crushing"></ion-checkbox>
+      </ion-item>
+      <ion-item class="dull">
+        <ion-label>Dull like indigestive</ion-label>
+        <ion-checkbox slot="start" value="dull"></ion-checkbox>
+      </ion-item>
+      <ion-item class="other">
+        
+        <ion-checkbox slot="start" value="other"></ion-checkbox>
+        <ion-input type="text" class="otherText" placeholder="other"></ion-input>
+      </ion-item>
+    </ion-label>
+  </ion-card>
+  <ion-card>
+  <ion-item>
+    <ion-label>Please select your pain level（0-10）
+    <ion-range color = "danger" pin="ture" min="0" max="10">
+    </ion-range>
+  </ion-label>
+  </ion-item>
+</ion-card>
+<ion-card>
+  <ion-item>
+  <ion-label text-wrap>
+    How long have you experienced this pain?
+  </ion-label>
+  <ion-select placeholder="select one">
+    <ion-select-option value="1/2">half day</ion-select-option>
+    <ion-select-option value="1">one day</ion-select-option>
+    <ion-select-option value="3">three days</ion-select-option>
+    <ion-select-option value="7">one week</ion-select-option>
+    <ion-select-option value="other">
+      other 
+    </ion-select-option>
+  </ion-select>
+</ion-item>
+</ion-card>
 
 </ion-content>
