@@ -95,7 +95,7 @@
           </ion-col>
           <ion-col size-lg="3">
             <ion-item>
-              <ion-label>Kidney, bladder or prostate disease</ion-label>
+              <ion-label text-wrap>Kidney, bladder or prostate disease</ion-label>
               <ion-checkbox slot="start" value="kidneyBladderProstate"></ion-checkbox>
             </ion-item>
           </ion-col>
@@ -125,9 +125,10 @@
           </ion-col>
           <ion-col size-lg="3">
             <ion-item>
-              <ion-label>______________</ion-label>
-              <ion-checkbox slot="start" value="blank"></ion-checkbox>
-              <ion-input type="text" [(ngModel)]="Firstname" test-right id="input"></ion-input>
+              
+                <ion-checkbox slot="start" value="blank">other</ion-checkbox>
+              
+            <ion-input type="text" placeholder="other"></ion-input>
             </ion-item>
           </ion-col>
 
@@ -156,7 +157,7 @@
           </ion-col>
           <ion-col size-lg="3">
             <ion-item>
-              <ion-label>Other Allergies We Should Know About?</ion-label>
+              <ion-label text-wrap>Other Allergies We Should Know About?</ion-label>
               <ion-checkbox slot="start" value="latexAllergen"></ion-checkbox>
             </ion-item>
           </ion-col>
