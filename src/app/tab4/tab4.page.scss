@@ -1,51 +1,58 @@
-ion-card{
-    position: relative;
-    left: -10px;
-    width: 350px;
-    height: 350px ;
-    background-image: url(../../assets/ChestPictures/body.svg);
-    background-size: 350px 350px;
+ion-card {
+  position: relative;
+  left: -10px;
+  width: 350px;
+  height: 350px;
+  background-image: url(../../assets/ChestPictures/body.svg);
+  background-size: 350px 350px;
 }
-.one{
-    position: relative;
-    top:90px;
-    left: 73px;
-    width: 200px;
-
+.one {
+  position: relative;
+  top: 90px;
+  left: 73px;
+  width: 200px;
 }
-.two{
-    position: relative;
-    left: 45px;
-    top: 95px;
-    width: 260px;
+.two {
+  position: relative;
+  left: 45px;
+  top: 95px;
+  width: 260px;
 }
-.thr{
-    position: relative;
-    left: 70px;
-    top: 60px;
-    width: 205px;
+.thr {
+  position: relative;
+  left: 70px;
+  top: 60px;
+  width: 205px;
 }
-.fou{
-    position: relative;
-    top: 0px;
-    left: 100px;
-    width: 150px;
+.fou {
+  position: relative;
+  top: 0px;
+  left: 100px;
+  width: 150px;
 }
-.fiv{
-    position: relative;
-    top: -10px;
-    left: 90px;
-    width:175px;
+.fiv {
+  position: relative;
+  top: -10px;
+  left: 90px;
+  width: 175px;
 }
-.six{
-    position: relative;
-    top:-10px;
-    left: 80px;
-    width: 200px;
+.six {
+  position: relative;
+  top: -10px;
+  left: 80px;
+  width: 200px;
 }
-.sev{
-    position: relative;
-    top:-60px;
-    left:125px;
-    width: 100px;
+.sev {
+  position: relative;
+  top: -60px;
+  left: 125px;
+  width: 100px;
+}
+.nextButton {
+  margin-top: 5%;
+  margin-left: 45%;
+  margin-right: 45%;
+  font-size: 100%;
+  width: 10%;
+  height: 10%;
 }
